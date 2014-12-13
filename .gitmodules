@@ -1,0 +1,6 @@
+[submodule "App-MyApp"]
+	path = App-MyApp
+	url = git@github.com:hayajo/nds39.myapp
+[submodule "App-SimpleChat"]
+	path = App-SimpleChat
+	url = git@github.com:hayajo/nds39.simplechat
