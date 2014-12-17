@@ -213,7 +213,7 @@ REDISTOGO_URL=redis://HOST:PORT
 
 コード例
 
-``` App-SimpleChat/script/simplechat
+```
 if( my $url = $ENV{REDIS_PORT_6379_TCP} || $ENV{REDISTOGO_URL} ) {
     return Mojo::URL->new($url)->scheme('redis');
 }
